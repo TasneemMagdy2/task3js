@@ -1,0 +1,168 @@
+ body {
+    background-color:#F8ECDE;
+  
+      padding: 0 100px;
+ }
+ a{
+   text-decoration: none;
+ }
+ .header {
+   padding: 70px 0;
+
+ }
+ .heading {
+   display: flex;
+   justify-content: center;
+   position: relative;
+ 
+}
+.header .heading h1 {
+     text-transform: capitalize;
+    color: black;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+    font-size: 33px;
+      font-family: 'Zeyada', cursive;
+
+}
+.header .heading h1::after{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 20px;
+   right: 0;
+   left: 0;
+  bottom: 0;
+   background-color: #FFC162;
+   z-index: -1;
+
+}
+.header .heading::before {
+   content: "";
+    position: absolute;
+       width: 90%;
+       bottom: -45px;
+    border-bottom: 2px dotted black;
+}
+.center .heading p {
+   text-transform: capitalize;
+   font-size: 25px;
+   font-weight: 700;
+   background: linear-gradient(to right,#3EA55C,#B1AA50,green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% 100%;
+}
+.form-control {
+   
+   margin-bottom: 24px;
+   height: 30px;
+   
+}
+ 
+
+.form-control:focus {
+
+        border-color: #ff80ff;
+        box-shadow:0px 0px 8px #d34f2acc;
+}
+
+ 
+
+
+
+
+
+
+
+
+.input-box {
+   position: relative;
+}
+#form.invalid .input-box::before  {
+content: "";
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/invalid.png);
+    background-size: cover;
+}
+#form.valid .input-box::after {
+content: "";
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    width: 16px;
+    height: 16px;
+   background-image: url(../img/valid.png);
+   background-size: cover;
+}
+.enter {
+       padding: 0 80px;
+         
+ 
+}
+label {
+  
+   margin-bottom: 5px;
+   font-size: 16px;
+   font-weight: bold;
+   text-transform: capitalize;
+
+}
+label span {
+   margin-left: 10px;
+}
+.btn {
+   background-color:#D3502A;
+     padding: 4px 40px;
+   color: #fff;
+   text-transform: capitalize;
+   font-size: 18px;
+ 
+}
+table {
+   position: relative;
+}
+table::after {
+        content: "";
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    top: -29px;
+    left: 0px;
+    border-bottom: 2px dotted black;
+}
+.btn:hover {
+   background-color:#D3502A;
+  color: #fff;
+}
+.form-control::placeholder {
+   color: #B6BEC1;
+}
+.btn2 {
+   background-color: #9EB237;
+       padding: 4px 8px;
+
+  
+}
+.btn2 a {
+    color: #fff;
+}
+.btn  i {
+   margin-right: 10px;
+}
+.btn2:hover {
+   background: #9EB237;
+}
+.btn3 {
+  background: #EC1C36;
+}
+.btn3:hover {
+  background: #EC1C36;
+}
+ 
